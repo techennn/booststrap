@@ -1,3 +1,4 @@
+
 .bg {
     background-image: url(../media/foto.jpg);
     background-position: center;
@@ -56,4 +57,21 @@ body {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+}
+#galeria .col-lg-4 {
+    padding: 25px;
+}
+#galeria img {
+    width: 100%;
+
+}
+#galeria img:hover {
+    border: 5px solid rgb(148, 148, 148);
+}
+p {
+    color: aliceblue;
+}
+h2 {
+    text-align: center;
+    margin: 25px;
 }
